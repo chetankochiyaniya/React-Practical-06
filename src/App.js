@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   const userProfileData = useSelector((state) => state.userProfile);
-  
+  console.log("Build Type: ",process.env.REACT_APP_ENV)
   return (
     <>
       <div className='App container-fluid'>

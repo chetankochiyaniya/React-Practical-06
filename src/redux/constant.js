@@ -1,7 +1,3 @@
-
-// api 
-export const API = 'https://reqres.in/api/users'
-
 // action name
 export const MOUSE_ENTER = 'MOUSE_ENTER'
 export const MOUSE_LEAVE = 'MOUSE_LEAVE'
